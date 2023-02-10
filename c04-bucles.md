@@ -106,7 +106,9 @@ do {
   $clave = read-host "Introduce la clave secreta"
 
 } until ( $clave -eq $clave_secreta )
+
+write-host "Clave secreta correcta"
 ```
-La evaluación de la condición es más intuitiva que la aportada con `while`.
+Como puedes ver, siempre se ejecuta el código entre llaves de `do` al menos en la primera vuelta. En este caso la evaluación de la condición es más intuitiva que la aportada con `while`.
 
 Siguiente apartado: [Funciones](./c05-funciones.md#funciones)
