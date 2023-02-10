@@ -189,9 +189,9 @@ $lista.clear()
 ```
 
 ## Hashes
-Un hash es una colección de elementos donde cada uno se compone de una clave única y su valor correspondiente (par clave - valor). Un hash es como un diccionario, donde localizas un elemento por un nombre (que no se repite) y este nombre contiene un valor. Este nombre es la clave. Después puedes utilizar esta clave para obtener su valor.
+Un hash es una colección de elementos donde cada uno se compone de una clave única y su valor correspondiente (par clave - valor). Un hash es como un diccionario, donde localizas un nombre (clave) y puedes ver lo que significa (valor). Conociendo una clave puedes acceder a su valor y también puedes cambiarlo.
 
-Crear un hash vacío:
+Vamos a crear un hash vacío denominado `$hash`:
 ```powershell
 $hash = @{}
 ```
