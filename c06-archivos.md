@@ -15,7 +15,7 @@ $nombre_archivo = "datos.txt"
 $ruta_archivo = "$carpeta\$nombre_archivo"
 "primera`nsegunda`ntercera" | out-file $ruta_archivo
 ```
-Como vemos, dentro de un texto indicamos un salto de línea con ``n`.
+Como vemos, dentro de un texto indicamos un salto de línea con \`n.
 
 El cmdlet `out-file` recibe el texto desde una tubería y lo escribe en un nuevo archivo denominado `datos.txt` indicando su ruta completa.
 
